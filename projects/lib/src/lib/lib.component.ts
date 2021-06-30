@@ -3,7 +3,9 @@ import { Component, OnInit } from '@angular/core';
 @Component({
   selector: 'yu-lib',
   template: `
-  <button mat-button>123</button>
+    <p>
+      lib works!
+    </p>
   `,
   styles: [
   ]

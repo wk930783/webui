@@ -1,5 +1,6 @@
 import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
+import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import {  TestComponentModule } from 'projects/lib/testui/src/public_api';
 
 import { AppComponent } from './app.component';
@@ -10,7 +11,8 @@ import { AppComponent } from './app.component';
   ],
   imports: [
     BrowserModule,
-    TestComponentModule
+    TestComponentModule,
+    BrowserAnimationsModule
   ],
   providers: [],
   bootstrap: [AppComponent]
